@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Jadwal Panen</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Jadwal Panen</h1>
+    <label for="tanggalMulai">Tanggal Mulai Menanam:</label>
+    <input type="date" id="tanggalMulai">
+    <br>
+    <label for="sayur">Pilih Sayur:</label>
+    <select id="sayur" onchange="hitungTanggalPanen()">
+        <option value="none">-- Pilih Sayuran --</option>
+        <option value="sawi">Sawi</option>
+        <option value="selada">Selada</option>
+        <option value="kangkung">Kangkung</option>
+    </select>
+    <br>
+    <button onclick="hitungTanggalPanen()">Hitung Tanggal Panen</button>
+    <br>
+    <p id="hasilPanen"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

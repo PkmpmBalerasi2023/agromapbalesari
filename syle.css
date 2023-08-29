@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+h1 {
+    color: #006400;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #006400;
+}
+
+input[type="date"],
+select {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #006400;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #006400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005500;
+}
+
+#hasilPanen {
+    font-size: 18px;
+    color: #006400;
+    margin-top: 20px;
+}
